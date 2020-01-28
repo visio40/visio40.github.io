@@ -1,0 +1,7 @@
+h1,h2  {font-size:1.4em;line-height:1.2em;margin-top:1em;margin-bottom:.5em;padding:0}
+h3 {font-size:1.4em;line-height:1.2em;}
+h4 {font-size:1.0em;line-height:1.2em;}
+dfn {font-style:normal;}
+legend {color: #333;padding: 4px;margin: 0;}
+fieldset {border:1px solid #ddd; margin: 0;padding: 8px;overflow: visible;position: relative;background:#eee;}
+form {padding:0;margin:0;border:none;outline:0;}

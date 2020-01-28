@@ -1,0 +1,421 @@
+html {
+	margin:0;
+	padding:0;
+	background:  url(../_images/bg/body.jpg) repeat-x 50%  0;
+	
+}
+
+body {
+	font-size:14px;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica,Verdana,Sans-Serif;
+	background:  url(../_images/bg/body.jpg) repeat-x 50%  0;
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:#222;
+	
+}
+@font-face {
+	font-family: 'ico';
+		src: url('fontawesome-webfont.eot');
+		src: url('fontawesome-webfont.eot%3F') format('embedded-opentype'),
+		url('fontawesome-webfont.woff') format('woff'),
+		 url('fontawesome-webfont.ttf') format('truetype'),
+		 url('fontawesome-webfont.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+.ico, .icon {font-family:ico;font-weight: normal !important;letter-spacing:0;}
+form {
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+}
+a {
+	text-decoration:none;
+	color:#1872ba;
+}
+
+a:focus {
+	outline:none;
+}
+ul,li {
+
+}
+h1, h2, h3, h4, h5, h6, .headline {
+	font-weight:400 !important;
+	color: #6f4e46;
+	font-family: "Lucida Grande", Tahoma, Arial, Helvetica,Verdana,Sans-Serif;
+}
+h1.di, h2.di, h3.di, h4.di, h5.di, h6.di {
+	padding-right:5px !important;
+}
+
+h1, h2, h3, strong b {
+	color: #6f4e46;
+	font-weight:400 !important;
+}
+
+
+#page, #bottomnavi {
+	margin:0 auto;
+	padding:0;
+	width:983px;
+	
+	
+}
+#page {
+	position:relative;
+	text-align:left;
+	padding:340px 0 30px 0;
+	
+}
+
+#pageinner {
+	position:relative;
+	top:0;
+	left:0;
+	width:981px !important;
+	text-align:left;
+	float:left !important;
+	border:1px solid #ddd;
+	border-top:0;
+	border-bottom:2px solid #ddd;
+	background:#fcfbfb url('../_images/bg/pageinner.jpg') 0 0 repeat-x;
+	font-family: Arial, Helvetica,Verdana,Sans-Serif;
+}
+
+#vspacer {
+	float:right;
+	width:1px;
+	height:800px;
+}
+
+
+
+#top {
+	height:340px;
+	width:983px;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:0;
+	margin:0;
+	z-index:1;
+	background: url('../_images/bg/header.jpg') 50% 0 no-repeat;
+}
+
+div.topnavi {
+	height:45px;
+	width:980px;
+	position:absolute;
+	top:283px;
+	left:10px;
+	float:left;
+	padding:0;
+	margin:0;
+	z-index:2;
+	
+}
+ul.topnavi {
+	height:45px;
+	width:980px;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:45px;
+	position:relative;
+	top:0px;
+	left:0px;
+	float:left;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	z-index:2;
+	
+}
+
+ul.topnavi li {
+	padding:0px;
+	margin:0;
+	float:left;
+	height:45px;
+	color: #fff;
+	line-height:45px;
+	position:relative;
+	z-index:1;
+}
+
+ul.topnavi li:hover { z-index:9 !important;}
+
+ul.topnavi li a {
+	display:block;
+	color: #fff;
+	padding:0px 15px;
+	font-weight:500;
+	height:45px;
+	line-height:45px;
+	font-size:15px;
+}
+ul.topnavi li.akt {
+	background-image: url('../_images/bg/menue_akt.jpg') !important;
+	background-position: 50% 100% !important;
+	background-repeat:no-repeat;
+	color:#fff;
+}
+
+ul.topnavi li .sub {display:none;position:absolute;left:0;top:35px;background:#FCFBFB;color:#333;min-width:300px;border:1px solid #6F4E46;
+box-shadow: 2px 2px 10px #666;
+	-webkit-box-shadow: 2px 2px 10px #666;
+	-moz-box-shadow: 2px 2px 10px #666;
+	-o-box-shadow: 2px 2px 10px #666;
+}
+
+ul.topnavi li:hover .sub {display:block;z-index:9 !important;text-transform:normal;}
+ul.topnavi li .sub a {color:#6F4E46;line-height:16px;font-size:14px;text-transform: none !important;height:auto;display:block;margin:5px;padding:5px;white-space:nowrap;
+	-ms-border-radius: 10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px; 
+}
+ul.topnavi li .sub a:hover, ul.topnavi li .sub a.akt {background:#6F4E46;color:#fff;}
+
+
+ul.globalnavi {
+	height:25px;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:45px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	float:left;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	z-index:2;
+	top:30px;
+}
+
+ul.globalnavi li {
+	padding:0px;
+	margin:0;
+	float:left;
+	height:25px;
+	color: #ccc;
+	line-height:25px;
+}
+
+ul.globalnavi li a {
+	display:block;
+	color: #ccc;
+	padding:0px 20px;
+	font-weight:500;
+	height:25px;
+	line-height:25px;
+	font-size:15px;
+}
+
+ul.globalnavi li.akt a { color:#6f4e46;}
+
+
+ ul.topnavi li a:hover,  ul.globalnavi li a:hover {
+	color:#fff;
+	-moz-opacity:0.75 !important;
+	opacity:0.75 !important;
+	filter:alpha(opacity=75);
+	
+}
+
+
+
+a#logo {
+	background: url('http://www.lsv-luechow.de/_images/ic/logo.png') no-repeat 50% 50%  !important;
+	cursor:pointer;
+	overflow:hidden;
+	display:block;
+	height:69px;
+	width:299px !important;
+	position:absolute;
+	top:20px;
+	right:20px;
+	float:right;
+	padding:0;
+	margin:0;
+	z-index:3;
+}
+
+#pagecontent {
+	width:980px;
+	float:left;
+	position:relative;
+	right:0;
+	top:0px;
+}
+
+div.left {
+	width:540px;
+	float:left;
+	line-height:1.5em;
+	
+}
+div.full {
+	width:983px;
+	float:right;
+	line-height:1.5em;
+}
+
+div.right{
+	width:340px;
+	float:right;
+	line-height:1.6em;
+}
+
+ul.bottomnavi {
+	font-size:12px;
+	line-height:30px;
+	height:30px;
+	padding:0;
+	position:relative;
+	float:right;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	z-index:5;
+	bottom:0;
+	right:0;
+}
+
+ul.bottomnavi li {
+	padding:0;
+	float:left;
+}
+
+ul.bottomnavi li a {
+	display:block;
+	color: #999;
+	padding:0 15px;
+}
+ul.bottomnavi li a.akt {
+	color:#6f4e46 !important;
+	font-weight:400 !important;
+}
+
+
+
+a.lightview {
+	cursor:help;
+	cursor: url('http://www.lsv-luechow.de/_images/ic/zoomin.cur'), help;
+	cursor:-webkit-zoom-in;
+	cursor:-moz-zoom-in;
+	cursor:zoom-in;
+	position:relative;
+	float:left;
+	overflow:visible;
+}
+a.lightview span.zoom {
+	width:1px;height:1px;background: url('http://www.lsv-luechow.de/_images/ic/zoom.gif') no-repeat 50% 50% !important;
+	padding:8px;
+	display:block;
+	position:absolute;
+	bottom:5px;
+	right:-10px;
+	-moz-opacity:0.50 !important;
+	opacity:0.50 !important;
+	filter:alpha(opacity=50);
+}
+
+a.closeit, a.openit {
+	width:1px;height:1px;
+	background: url('http://www.lsv-luechow.de/_images/ic/close.gif') no-repeat 50% 50%;
+	padding:8px;
+	display:block;
+	position:absolute;
+	top:10px;
+	right:10px;
+	-moz-opacity:0.50 !important;
+	opacity:0.50 !important;
+	filter:alpha(opacity=50);
+}
+a.openit {
+	background: url('http://www.lsv-luechow.de/_images/ic/info.gif') no-repeat 50% 50% !important;
+	top:1px;
+	right:2px;
+	z-index:99;
+}
+.openclose {width:980px;float:left;}
+
+a.lightview:hover span.zoom, a.closeit:hover , a.openit:hover {
+	-moz-opacity:1.50 !important;
+	opacity:1.50 !important;
+	filter:alpha(opacity=150);
+}
+
+a.scrolldown, .scrolldown, a.scrollup, .scrollup {
+	width:11px;
+	height:11px;
+	position:absolute;
+	
+	left:5px;
+	background-image: url('http://www.lsv-luechow.de/_images/ic/scroll.gif');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	-moz-opacity:0.30 !important;
+	opacity:0.20 !important;
+	filter:alpha(opacity=30);
+}
+a.scrollup, .scrollup {
+	background-position: 0 100%;
+}
+a.scrolldown:hover, a.scrollup:hover {
+	-moz-opacity:0.75 !important;
+	opacity:0.75 !important;
+	filter:alpha(opacity=75);
+}
+
+a.dl, a.mehr {
+	text-decoration:none;
+	color:#1872ba;
+	background: url('http://www.lsv-luechow.de/_images/ic/dl.gif') no-repeat 0 50% !important;
+	padding-left:20px;
+	-moz-opacity:0.75 !important;
+	opacity:0.75 !important;
+	filter:alpha(opacity=75);
+	font-weight:600;
+}
+a.mehr {
+	background: url('http://www.lsv-luechow.de/_images/ic/mehr.gif') no-repeat 0 50% !important;
+}
+a.dl:hover, a.mehr:hover {
+	-moz-opacity:1.75 !important;
+	opacity:1.75 !important;
+	filter:alpha(opacity=175);
+}
+
+a.anfahrt {display:block; float:left; width:300px;height:205px;background:url('../_images/bg/map_x.jpg') no-repeat 0 0;}
+
+.error {color:#a70101;}
+
+tr.error input[type=text], tr.error textarea {border:2px solid #a70101 !important;}
+
+
+
+input, textarea, select {border:1px solid #ddd;padding-top:2px;padding-bottom:2px; font-size:14px;outline:none;font-size:16px;}
+input.error, textarea.error, select.error {border:1px solid #1872ba;}
+span.error {color:#1872ba;}
+input[type=submit],input[type=button],button, .submit {background-color:#1872ba;color:#fff;padding:5px 10px;border:1px solid #1872ba;font-size:16px;}
+select {background-color:#1872ba;color:#fff;font-size:16px;}
+
+.path {position:absolute;left:20px;top:0px;color:#1872BA;font-size:13px;}
+.path a {padding:0 2px;}
+.path a:hover {color:#000;}
+.path a.akt {font-weight:600;}
+
+.jubi50 {
+	width:637px;
+	height:222px;
+	background:url('../_images/bg/50-jahre.png') no-repeat 0 0;
+	position:absolute;
+	left:-50px;
+	top:0;
+}
